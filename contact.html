@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Made to Survive</title>
+  <meta name="description" content="Contact Made to Survive, submit a story, or ask a support question." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="announcement-bar">
+    <div class="container">
+      <p><strong>Fresh on the site:</strong> new community pages, featured stories, support resources, and a cleaner brand-forward experience.</p>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html"><img src="assets/images/logo.png" alt="Made to Survive logo" /></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="stories.html">Stories</a>
+        <a href="supporters.html">Support People</a>
+        <a href="resources.html">Resources</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="contact.html" class="btn btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="surface">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / <span>Contact</span></div>
+        <p class="eyebrow">Contact</p>
+        <h1>Reach out, share a story, or submit a question</h1>
+        <p class="lead">This page is intentionally doing more than one job. It works as a contact form, a story submission entry point, and a simple place for community questions to begin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="card">
+        <h3>Send a message</h3>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-grid">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your email" required />
+            </div>
+          </div>
+          <div class="form-grid">
+            <div>
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option>General contact</option>
+                <option>Story submission</option>
+                <option>Support question</option>
+                <option>Caregiver reflection</option>
+                <option>Partnership / collaboration</option>
+              </select>
+            </div>
+            <div>
+              <label for="role">I am a...</label>
+              <select id="role" name="role">
+                <option>Person living with MS</option>
+                <option>Support person / caregiver</option>
+                <option>Friend or family member</option>
+                <option>Community member</option>
+              </select>
+            </div>
+          </div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Share your story, question, or message here."></textarea>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+      </div>
+      <div class="card">
+        <p class="eyebrow">How this page can be used</p>
+        <h3>One page, several content inputs</h3>
+        <ul class="list-clean">
+          <li>Private outreach from someone who needs support</li>
+          <li>Story submissions you can later turn into posts</li>
+          <li>Questions from caregivers or support people</li>
+          <li>Community notes for future FAQs or social posts</li>
+        </ul>
+        <div class="callout">
+          Replace <code>YOUR_FORM_ID</code> with your Formspree endpoint before you publish.
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer section-tight">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html"><img src="assets/images/logo.png" alt="Made to Survive logo" /></a>
+        <p>A support-centered community for people living with MS, caregivers, families, and anyone learning how to show up well in difficult seasons.</p>
+        <small>Replace social links, contact info, and form ID before going live.</small>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul class="list-clean">
+          <li><a href="about.html">About the mission</a></li>
+          <li><a href="stories.html">Community stories</a></li>
+          <li><a href="supporters.html">Support person hub</a></li>
+          <li><a href="resources.html">Practical resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Stay connected</h3>
+        <ul class="list-clean">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="contact.html">Contact / submit a story</a></li>
+          <li><a href="blog/index.html">Latest posts</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
